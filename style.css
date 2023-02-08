@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaeaea;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border-radius: 11px;
+    box-shadow: 0 0 3px 1px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+input {
+    height: 35px;
+    width: 100%;
+    font-size: 20px;
+    margin: 5px 0   ;
+
+}
+
+.heading-top {
+    text-align: center;
+    font-weight: 200px;
+
+}
+
+ 
+
+label{
+    font-size: 27px;
+     
+}
+
+.onError {
+    color: red;
+    font-size: 19px;
+    margin: 0 7px;
+
+}
+
+.username , .email , .password , .confirm-password {
+    height: 100px;
+ }
+
+ input[type="submit"] {
+    cursor: pointer;
+ }
